@@ -1,0 +1,167 @@
+body {
+  font-family: SFProDisplay-Regula, Helvetica, Arial, sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+#con {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
+  background-color: #dadadb;
+  padding: 100px 0px 100px;
+}
+/* td,
+th {
+  border: 1px solid black;
+  padding: 20px;
+}
+tr > :last-child {
+  cursor: pointer;
+} */
+#head {
+  width: 30%;
+}
+
+form {
+  border-collapse: collapse;
+  width: 25%;
+  border: #27f solid 1px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input,
+option,
+select {
+  font-size: 15px;
+}
+table {
+  width: 90%;
+  margin: 30px auto auto auto;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+td:last-child:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(11, 48, 107);
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #27f;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+ 
+}
+
+h2 {
+  font-family: inherit;
+  text-align: left;
+  padding-top: 12%;
+  color: #27f;
+  font-size: 50px;
+}
+i {
+  color: rgb(11, 48, 107);
+  font-size: 1.5em;
+}
+p {
+  font-size: 20px;
+  width: auto;
+  padding-right: 150px;
+  text-align: left;
+}
+
+.abc {
+  width: 80%;
+  margin: 10px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid 1px #27f;
+  color: #27f;
+  font-weight: bold;
+}
+hr {
+  margin-top: 30px;
+  width: 90%;
+  opacity: 60%;
+}
+#btn {
+  background-color: #27f;
+  color: white;
+}
+
+/* #btn:hover {
+  box-shadow: 10px 10px 0px #dadadb;
+  top: -5px;
+  left: -5px;
+} */
+
+#btn:hover {
+  /* box-shadow: inset -10.5em 0 0 0 gray, inset 10.5em 0 0 0 gray; */
+  background-color: rgb(11, 48, 107);
+  box-shadow: 0 0 5px rgb(11, 48, 107), 0 0 25px rgb(11, 48, 107),
+    0 0 50px rgb(11, 48, 107), 0 0 100px rgb(11, 48, 107);
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #con {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0px;
+
+    /* justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    background-color: #dadadb;
+    padding: 100px 0px 100px; */
+  }
+  #head {
+    width: 90%;
+    margin-top: 0;
+    height: auto;
+    padding-top: 0px;
+  }
+
+  form {
+    width: 90%;
+    /* border-collapse: collapse;
+    border: #27f solid 1px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  }
+  h2 {
+    text-align: center;
+  }
+
+  #head > .anz {
+    text-align: center;
+    padding-right: 0;
+  }
+}

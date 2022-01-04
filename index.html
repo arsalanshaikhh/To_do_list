@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <script src="https://kit.fontawesome.com/c15d26972b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- <i class="fas fa-check-double"></i>
+    <h1>Todo list (Organize it all with
+      Todoist)</h1> -->
+      
+    </h1>
+    <div id="con">
+      <div id="head">
+        <h2> <i class="fab fa-stack-overflow"></i> Todo List</h2>
+        <p class="anz" >Organize it all with Todo List and Free up your mental space.</p>
+      </div>
+      <form id="sub">
+        <!-- <label for="">Name</label> -->
+        <input
+          id="name"
+          class="abc"
+          type="text"
+          placeholder="Name of the Task"
+        />
+        <br />
+
+        <!-- <label for="">Quantity</label> -->
+        <input id="qt" class="abc" type="number" placeholder="Quantity" />
+        <br />
+
+        <!-- <label for="">Priority</label> -->
+        <select name="pr" class="abc" id="pr" >
+          <option value="">Select Priority</option>
+          <option value="high">high</option>
+          <option value="medium">medium</option>
+          <option value="low">low</option>
+        </select>
+        <br />
+        <hr>
+        <input type="submit" id="btn" class="abc" />
+      </form>
+    </div>
+    <div id="con2">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Priority</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    
+  </body>
+</html>
+<script src="./app.js"></script>
