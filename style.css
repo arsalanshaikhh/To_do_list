@@ -23,6 +23,8 @@ tr > :last-child {
   width: 30%;
 }
 
+/* form */
+
 form {
   border-collapse: collapse;
   width: 25%;
@@ -73,7 +75,6 @@ th {
   color: white;
   text-align: center;
   border-radius: 10px;
- 
 }
 
 h2 {
